@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="phone_hint">User</string>
+    <string name="phone_hint2">Password</string>
+</resources>

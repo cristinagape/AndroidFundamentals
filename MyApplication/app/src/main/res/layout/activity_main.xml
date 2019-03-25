@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#AADDCCDD"
+    android:orientation="vertical">
+
+    <TextView
+        android:text="Google AD"
+        android:textSize="35dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_margin="20dp"
+        android:textColor="#220000 "
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:text="Sign In"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textColor="#6e6e73"
+        android:layout_margin="20dp"
+        android:textStyle="bold"
+        android:background="#b4b4b4"/>
+    <LinearLayout
+        android:layout_height="50dp"
+        android:layout_width="250dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        >
+
+        <View
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/user"
+            android:visibility="visible" />
+            <EditText
+                android:layout_height="50dp"
+                android:layout_width="200dp"
+                android:hint="@string/phone_hint"
+                />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_height="50dp"
+        android:layout_width="250dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+
+        >
+        <View
+            android:layout_height="50dp"
+            android:layout_width="50dp"
+            android:background="@drawable/key"
+            />
+        <EditText
+            android:layout_height="50dp"
+            android:layout_width="200dp"
+            android:hint="@string/phone_hint2"
+            />
+    </LinearLayout>
+        <Button
+            android:layout_height="50dp"
+            android:layout_width="150dp"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:text="Login"
+            android:textColor="#060000"
+            android:background="#9191f2"
+            android:layout_marginTop="30dp"
+            />
+</LinearLayout>
